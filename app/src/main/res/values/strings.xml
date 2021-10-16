@@ -1,0 +1,42 @@
+<resources>
+    <!-- App Text -->
+    <string name="app_name">Expert</string>
+    <string name="welcome">Xoş Gəlmişsiniz</string>
+    <string name="email">E-poçt</string>
+    <string name="password">Şifrə</string>
+    <string name="confirm_password">Təkrar şifrə</string>
+    <string name="username">İstifadəçi adı</string>
+    <string name="login">Giriş</string>
+    <string name="register">Qeydiyyat</string>
+    <string name="search">Axtar...</string>
+    <string name="view_all">Hamısına bax</string>
+    <string name="fullname">Name Surname</string>
+    <string name="user_specialty">User Specialty</string>
+
+    <string name="logo">logo</string>
+    <string name="profile">profile</string>
+    <string name="menu">menu</string>
+    <string name="category">category</string>
+    <string name="thumbl">thumbl</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_notification">Expert, Mütəxəssislər ilə işçiyə ehtiyac olanları bir araya gətirən bir platformdur</string>
+
+    <!-- Main Screen -->
+    <string name="main_cate_title">Kateqoriya seç</string>
+    <string name="main_top_workers">Ən yaxşı işçilər</string>
+
+
+    <!-- login Screen -->
+    <string name="login_subtitle">Sizi yenidən görməyimizə şadıq</string>
+    <string name="login_forgot">Şifrəni unutmusunuz?</string>
+    <string name="login_text">Siz hələ də qeydiyyatdan keçməmisiniz? Qeydiyyat</string>
+
+    <!-- register Screen -->
+    <string name="register_subtitle">Yeni bir hesab yaradın, pulsuzdur</string>
+    <string name="register_text">Artıq sizin hesabınız var? Giriş</string>
+
+    <!-- profile Screen -->
+    <string name="profile_header">Salam, Rashad</string>
+    <string name="profile_header_subtitle">Bu gün siz necəsiniz?</string>
+</resources>

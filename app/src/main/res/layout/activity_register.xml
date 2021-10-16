@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="50dp"
+    android:background="@color/app_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_subtitle"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        style="@style/AppInput"
+        android:layout_marginTop="45dp"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:autofillHints="@string/username" />
+
+    <EditText
+        style="@style/AppInput"
+        android:layout_marginTop="15dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="@string/email" />
+
+    <EditText
+        style="@style/AppInput"
+        android:layout_marginTop="15dp"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:autofillHints="@string/password" />
+
+    <EditText
+        style="@style/AppInput"
+        android:layout_marginTop="15dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="@string/confirm_password" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/register"
+        style="@style/AppButton"/>
+
+    <TextView
+        android:id="@+id/txt_register_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
