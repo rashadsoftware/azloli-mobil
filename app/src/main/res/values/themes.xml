@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.ExpertMobile" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
@@ -20,5 +20,26 @@
         <item name="android:layout_marginRight">30dp</item>
         <item name="android:layout_marginLeft">30dp</item>
         <item name="android:background">@drawable/app_input</item>
+    </style>
+
+    <style name="ProfileImage" parent="Theme.ExpertMobile">
+        <item name="civ_border_width">3dp</item>
+        <item name="civ_border_color">@color/image_bordered</item>
+        <item name="contentDescription">@string/profile</item>
+        <item name="android:src">@drawable/profile</item>
+    </style>
+
+    <style name="CenterObject" parent="Theme.ExpertMobile">
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="SectionTextTitle" parent="Theme.ExpertMobile">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">20dp</item>
     </style>
 </resources>

@@ -8,16 +8,20 @@
     <string name="username">İstifadəçi adı</string>
     <string name="login">Giriş</string>
     <string name="register">Qeydiyyat</string>
+    <string name="online">Online</string>
     <string name="search">Axtar...</string>
+    <string name="settings">Ayarlar</string>
     <string name="view_all">Hamısına bax</string>
-    <string name="fullname">Name Surname</string>
-    <string name="user_specialty">User Specialty</string>
+    <string name="full_name">Name Surname</string>
+    <string name="user_specialty">User Professional</string>
 
-    <string name="logo">logo</string>
+    <!-- content -->
     <string name="profile">profile</string>
+    <string name="icon">icon</string>
+    <string name="chat_input">chat input</string>
+    <string name="logo">logo</string>
     <string name="menu">menu</string>
     <string name="category">category</string>
-    <string name="thumbl">thumbl</string>
 
     <!-- Splash Screen -->
     <string name="splash_notification">Expert, Mütəxəssislər ilə işçiyə ehtiyac olanları bir araya gətirən bir platformdur</string>
@@ -37,6 +41,25 @@
     <string name="register_text">Artıq sizin hesabınız var? Giriş</string>
 
     <!-- profile Screen -->
-    <string name="profile_header">Salam, Rashad</string>
-    <string name="profile_header_subtitle">Bu gün siz necəsiniz?</string>
+    <string name="profile_header">Rashad Alakbarov</string>
+    <string name="profile_header_subtitle">Programist</string>
+
+    <!-- chat Screen -->
+    <string name="chat_message_input">Mesajınızı daxil edin</string>
+
+    <!-- profile detail Screen -->
+    <string name="job_success">İş Uğuru</string>
+    <string name="job_success_percent">90%</string>
+    <string name="ratings_value">4.9/4</string>
+    <string name="ratings">Reyting</string>
+
+    <string name="about_me">Mənim Haqqımda</string>
+    <string name="about_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s"</string>
+
+    <string name="contact">Əlaqə</string>
+    <string name="contact_phone">+99455 821 56 73</string>
+    <string name="contact_email">rashadalakbarov@gmail.com</string>
+    <string name="contact_location">Xırdalan şəh, Heydər Əliyev prospekti məhəllə 30</string>
+
+    <string name="add_worker">Əlavə Et</string>
 </resources>

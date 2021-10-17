@@ -32,17 +32,15 @@ public class MainActivity extends AppCompatActivity {
         recyclerTopWorker.setLayoutManager(new LinearLayoutManager(this));
 
          TopWorkerData[] topWorkerData=new TopWorkerData[]{
-                 new TopWorkerData("Rashad Alakbarov", "Proqramçı", R.drawable.image1),
-                 new TopWorkerData("Rashad Huseynov", "Satıcı", R.drawable.image2),
-                 new TopWorkerData("Rashad Alakbarov", "Proqramçı", R.drawable.image1),
-                 new TopWorkerData("Rashad Huseynov", "Satıcı", R.drawable.image2),
-                 new TopWorkerData("Rashad Alakbarov", "Proqramçı", R.drawable.image1),
-                 new TopWorkerData("Rashad Huseynov", "Satıcı", R.drawable.image2),
-                 new TopWorkerData("Rashad Alakbarov", "Proqramçı", R.drawable.image1),
-                 new TopWorkerData("Rashad Huseynov", "Satıcı", R.drawable.image2),
+                 new TopWorkerData("Rashad Alakbarov", "Proqramist", R.drawable.profile),
+                 new TopWorkerData("Xalid", "Aqronom", R.drawable.profile)
          };
 
          TopWorkerAdapter topWorkerAdapter=new TopWorkerAdapter(topWorkerData, MainActivity.this);
          recyclerTopWorker.setAdapter(topWorkerAdapter);
+
+
     }
+
+
 }

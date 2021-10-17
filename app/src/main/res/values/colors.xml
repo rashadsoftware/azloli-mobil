@@ -2,5 +2,16 @@
 <resources>
     <!-- App Color -->
     <color name="app_color">#bc003d</color>
-    <color name="app_background">#dfe8f2</color>
+    <color name="app_background">#f6f4e6</color>
+    <color name="image_bordered">#cccccc</color>
+    <color name="input_bordered">#c8c5c5</color>
+
+    <!-- CardView -->
+    <color name="card_title">#1C1C1C</color>
+    <color name="card_subtitle">#707070</color>
+
+
+
+
+    <color name="blue">#293859</color>
 </resources>

@@ -1,6 +1,7 @@
 package rashad.alakbarov.expertmobile.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,6 +45,7 @@ public class TopWorkerAdapter extends RecyclerView.Adapter<TopWorkerAdapter.View
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, topWorkerDataList.getWorkerName(), Toast.LENGTH_SHORT).show();
+                v.getContext().startActivity(new Intent(v.getContext(), ProfileDetailActivity.class));
             }
         });
     }

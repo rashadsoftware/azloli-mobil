@@ -10,23 +10,22 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:padding="30dp">
+        android:layout_height="100dp"
+        android:padding="20dp">
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/menu"
+            android:src="@drawable/ic_menu"
             android:contentDescription="@string/menu" />
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_profile"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentEnd="true"
-            android:src="@drawable/profile"
-            android:contentDescription="@string/profile" />
+            style="@style/ProfileImage" />
 
     </RelativeLayout>
 
@@ -34,8 +33,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="8dp">
 
         <EditText
@@ -44,12 +43,13 @@
             android:layout_weight="1"
             android:background="@drawable/background_search"
             android:hint="@string/search"
-            android:drawableStart="@drawable/search"
+            android:drawableStart="@drawable/ic_search"
             android:drawablePadding="10dp"
-            android:paddingStart="20dp"
+            android:paddingStart="10dp"
             android:autofillHints="@string/search"
             android:inputType="textPersonName"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+            tools:ignore="RtlSymmetry" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="50dp"
@@ -59,12 +59,9 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/add"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/category" />
+                style="@style/CenterObject"
+                android:src="@drawable/ic_add"
+                android:contentDescription="@string/icon" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -74,15 +71,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_cate_title"
-        android:textSize="20sp"
-        android:textColor="#000"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        android:paddingStart="30dp"/>
+        style="@style/SectionTextTitle"
+        android:layout_marginTop="20dp"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -279,33 +274,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/main_top_workers"
-            android:textSize="20sp"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="30dp"/>
+            style="@style/SectionTextTitle"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/view_all"
             android:gravity="end"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"/>
+            android:paddingEnd="20dp"/>
 
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_top_workers"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"/>
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
 </LinearLayout>

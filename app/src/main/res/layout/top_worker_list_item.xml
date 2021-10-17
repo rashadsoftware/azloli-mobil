@@ -6,35 +6,34 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="90dp"
         app:cardCornerRadius="5dp"
         app:cardElevation="10dp"
-        android:background="#ffff"
-        android:padding="10dp"
-        android:layout_marginStart="30dp"
+        android:background="@android:color/white"
         android:layout_marginBottom="15dp">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="30dp">
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/imgThumblProfile"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:src="@drawable/profile"
-                android:contentDescription="@string/thumbl" />
+                style="@style/ProfileImage"/>
 
             <TextView
                 android:id="@+id/textimgThumblName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fullname"
+                android:text="@string/full_name"
                 android:textStyle="bold"
-                android:textColor="#1C1C1C"
+                android:textColor="@color/card_title"
                 android:textSize="20sp"
                 android:layout_toEndOf="@id/imgThumblProfile"
                 android:layout_marginStart="20dp"
@@ -45,11 +44,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/user_specialty"
-                android:textColor="#707070"
+                android:textColor="@color/card_subtitle"
                 android:layout_below="@id/textimgThumblName"
                 android:layout_toEndOf="@id/imgThumblProfile"
                 android:layout_marginStart="20dp"/>
-
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
